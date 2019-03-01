@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "param-filter-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/paramFilter/ParamFilterApplicationCustomizer.js",
+          "manifest": "./src/extensions/paramFilter/ParamFilterApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ParamFilterApplicationCustomizerStrings": "lib/extensions/paramFilter/loc/{locale}.js"
+  }
+}

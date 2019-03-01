@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ParamFilter"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="a99cfe53-14fd-4137-86ab-397123562ff7"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>
