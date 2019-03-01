@@ -1,6 +1,6 @@
-## sharepoint-modern-ui-form-param-filter
+## SharePoint Modern UI Param Filter
 
-This is where you include your WebPart documentation.
+This extension gives the ability to autofill dropdowns based on the current filter params set in the URL.
 
 ### Building the code
 
@@ -19,8 +19,8 @@ This package produces the following:
 
 ### Build options
 
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+* gulp clean
+* gulp test
+* gulp serve
+* gulp bundle --ship
+* gulp package-solution --ship
