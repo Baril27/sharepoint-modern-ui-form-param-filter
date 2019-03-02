@@ -32,7 +32,7 @@ export default class ParamFilterApplicationCustomizer
   @override
   public onInit(): Promise<void> {
 
-    jQuery(MS_NEW_BUTTON_ELEMENT).on('click', () => {
+    jQuery('body').on('click', MS_NEW_BUTTON_ELEMENT, () => {
 
       const params = this.getUrlParameters();
 
