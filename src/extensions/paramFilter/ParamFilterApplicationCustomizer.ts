@@ -13,7 +13,7 @@ import * as strings from 'ParamFilterApplicationCustomizerStrings';
 const MS_NEW_BUTTON_ELEMENT: string = ".ms-CommandBar button[name='New']",
 MS_LABEL_CLASS: string = 'ms-Label',
 MS_DROPDOWN_TITLE_CLASS: string = 'ms-Dropdown-title',
-MS_DROPDOWN_CALLOUT_CLASS: string = 'ms-Dropdown-callout';
+MS_DROPDOWN_ITEMS_CLASS: string = 'ms-Dropdown-items';
 
 /**
  * If your command set uses the ClientSideComponentProperties JSON input,
@@ -42,7 +42,7 @@ export default class ParamFilterApplicationCustomizer
 
           this.waitForElement("." + MS_LABEL_CLASS + ":contains(" + value + ")", () => {
             jQuery("." + MS_LABEL_CLASS + ":contains(" + value + ") + span").find('.' + MS_DROPDOWN_TITLE_CLASS).click();
-            jQuery('.' + MS_DROPDOWN_CALLOUT_CLASS).find("button[title='" + params['FilterValue' + index] + "']").click();
+            jQuery('.' + MS_DROPDOWN_ITEMS_CLASS).find("button[title='" + params['FilterValue' + index] + "']").click();
           });
         }
       });
